@@ -1,0 +1,6 @@
+name = "fastapi"
+compatibility_date = "2024-04-02"
+[vars]
+UPSTASH_REDIS_REST_URL = "https://uncommon-bonefish-30273.upstash.io"
+UPSTASH_REDIS_REST_TOKEN = "AXZBASQgNjFlYWZjNTYtNDJlNi00NTFiLTk2MjEtYjg0YzlkNGU1MzhjMTQ4M2M2NmI4NTZjNDAwODk1ZWExYTgzM2FiNmYwOGQ="
+NEXT_PUBLIC_IS_LOCAL = true

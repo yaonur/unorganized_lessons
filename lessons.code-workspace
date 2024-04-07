@@ -1,0 +1,17 @@
+{
+  "folders": [
+    {
+      "path": "./unorganized/fastsearch"
+    },
+    // {
+    //   "path": "./algo/algoexpert"
+    // },
+    // {
+    //   "path": "./rust/tutorials/handsondatastructures/s1"
+    // },
+    {
+      "path": "."
+    }
+  ],
+  "settings": {}
+}
