@@ -12,20 +12,30 @@ def bareTwoNumberSum(array, targetSum):
 
 # O(n^2) time | O(1) space
 def twoNumberSum(array, targetSum):
-    print("twoNumberSum >>>>>>>>")
+    # print("twoNumberSum >>>>>>>>")
     for i in range(len(array)-1):
-        print("--------------------")
+        # print("--------------------")
         firstNum = array[i]
-        print("firstNum: ", firstNum)
+        # print("firstNum: ", firstNum)
         for j in range(i+1, len(array)):
             secondNum = array[j]
-            print(secondNum)
+            # print(secondNum)
             if firstNum + secondNum == targetSum:
                 return [firstNum, secondNum]
-        print("-------------------->>")
+        # print("-------------------->>")
     return []
 
+def twoNumberSumS2(array, targetSum):
+    nums = {}
+    for num in array:    
+        if targetSum - num in nums:
+            return [targetSum-num , num]
+        else: 
+            nums[num] = True
+    return []
 
 if __name__ == "__main__":
-    print(bareTwoNumberSum([3, 5, -4, 8, 11, 1, -2, -1], 10))
-    print(twoNumberSum([3, 5, -4, 8, 11, 1, -2, -1], 10))
+    numsArray =[3, 5, -4, 8, 11, 1, -2, -1]
+    print(bareTwoNumberSum(numsArray, 10))
+    print(twoNumberSum(numsArray, 10))
+    print(twoNumberSumS2(numsArray,10))

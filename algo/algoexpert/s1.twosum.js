@@ -13,4 +13,17 @@ function twoNumberSum(array, targetSum) {
   return [];
 }
 
+function twoNumberSumS2(array, targetSum) {
+  let nums = {}
+  for (const element of array) {
+    if (targetSum - element in nums) {
+      return [targetSum-element , element]
+    } else {
+      nums[element] = true
+    }
+    
+  }
+}
+
 console.log(twoNumberSum(array, targetSum));
+console.log(twoNumberSumS2(array, targetSum));
