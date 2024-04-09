@@ -25,5 +25,22 @@ function twoNumberSumS2(array, targetSum) {
   }
 }
 
+function twoNumberSumS3(array,targetSum) {
+  array.sort((a,b)=> a-b)
+  let left = 0 
+  let right = array.length - 1
+  while (left<right){
+    let sum= array[left] + array[right]
+    if (sum === targetSum){
+      return [array[left], array[right]]
+    } else if (sum < targetSum){
+      left ++
+    } else {
+      right ++
+    }
+  }
+  return []
+}
 console.log(twoNumberSum(array, targetSum));
 console.log(twoNumberSumS2(array, targetSum));
+console.log(twoNumberSumS3(array,targetSum))
