@@ -1,16 +1,19 @@
 {
   "folders": [
-    // {
-    //   "path": "./unorganized/fastsearch"
-    // },
     {
-      "path": "./algo/algoexpert/s2"
+      "path": "./go/endtoend/s1"
     },
-    // {
-    //   "path": "./rust/tutorials/handsondatastructures/s1"
-    // },
     {
       "path": "."
+    },
+    {
+      "path": "../../dockerapps"
+    },
+    {
+      "path": "../../projects/sv-template"
+    },
+    {
+      "path": "../../.config/nvim"
     }
   ],
   "settings": {}
