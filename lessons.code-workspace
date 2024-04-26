@@ -1,6 +1,9 @@
 {
   "folders": [
     {
+      "path": "../../projects/sv-template"
+    },
+    {
       "path": "./go/endtoend/s1"
     },
     {
@@ -10,10 +13,10 @@
       "path": "../../dockerapps"
     },
     {
-      "path": "../../projects/sv-template"
+      "path": "../../.config/nvim"
     },
     {
-      "path": "../../.config/nvim"
+      "path": "../../.config/zsh"
     }
   ],
   "settings": {}
