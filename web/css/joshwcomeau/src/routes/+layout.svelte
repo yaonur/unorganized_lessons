@@ -11,8 +11,8 @@
 
 	$: setLanguageTag(lang);
 	// $: pathName = $page.url.pathname;
-	if (browser && (!availableLanguageTags.includes($page.params.lang as AvailableLanguageTag))) {
-		console.log("path name wrong");
+	if (browser && !availableLanguageTags.includes($page.params.lang as AvailableLanguageTag)) {
+		console.log('path name wrong');
 		goto(`/en`);
 	}
 </script>
@@ -28,5 +28,12 @@
 {#key lang}
 	<slot />
 {/key} -->
-<slot></slot>
+<slot />
 
+<style>
+	*,
+	*::after,
+	*::before {
+		box-sizing: border-box;
+	}
+</style>
