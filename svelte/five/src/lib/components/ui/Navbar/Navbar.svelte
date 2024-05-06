@@ -16,6 +16,9 @@
             <li>
                 <a href="/about">{m._about()}</a>
             </li>
+            <li>
+                <a href="/lessons/todo">Lessons</a>
+            </li>
         </ul>
     </nav>
     <!-- <select bind:value={selectedLanguage} on:change={changeLanguage}>
