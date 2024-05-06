@@ -1,6 +1,9 @@
 {
   "folders": [
     {
+      "path": "svelte/five"
+    },
+    {
       "path": "../../projects/sv-template"
     },
     {
@@ -17,7 +20,7 @@
     },
     {
       "path": "../../.config/zsh"
-    }
+    },
   ],
   "settings": {}
 }

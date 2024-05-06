@@ -52,7 +52,7 @@
 		</div>
 	{/each}
 </div>
-<div class="flex text-blue-50 gap-2">
+<div class="flex gap-2 text-blue-50">
 	{#each ['all', 'active', 'completed'] as filter}
 		<!-- content here -->
 		<Button onclick={()=> setFilter(filter as Filters)}>{filter}</Button>
