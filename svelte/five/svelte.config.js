@@ -10,12 +10,12 @@ const config = {
 	kit: {
 		adapter: adapter(),
 		alias: {
-			$ui: './src/lib/components/ui',
-			$elements: './src/lib/components/elements',
-			$stores: './src/lib/stores',
-			$utils: './src/lib/utils',
-			$lib: './src/lib',
-			$components: './src/lib/components',
+			"$ui": "./src/lib/components/ui",
+			"$elements": "./src/lib/components/elements",
+			"$stores": "./src/lib/stores",
+			"$utils": "./src/lib/utils",
+			"$lib": "./src/lib",
+			"$components": "./src/lib/components",
 		}
 	}
 };
