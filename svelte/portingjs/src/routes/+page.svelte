@@ -1,6 +1,7 @@
 <script lang="ts">
 	import * as m from '$lib/paraglide/messages';
 	import Button from '$elements/Button';
+	import Neko from '$lib/Neko.svelte';
 	import { availableLanguageTags, languageTag } from '$lib/paraglide/runtime.js';
 	import { page } from '$app/stores';
 
@@ -12,8 +13,5 @@
 	}
 </script>
 
-<h1 class="text-red-400">{m._lang_test()}</h1>
 
-<Button onclick={handleClick} class="px-4 py-2 text-white" intent="secondary" size="small"
-	>Hello</Button
->
+<Neko />
