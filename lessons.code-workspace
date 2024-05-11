@@ -25,5 +25,7 @@
       "path": "../../dotfiles"
     }
   ],
-  "settings": {}
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "lessons"
+  }
 }
