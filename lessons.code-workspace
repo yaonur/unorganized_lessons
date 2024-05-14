@@ -1,10 +1,10 @@
 {
   "folders": [
     {
-      "path": "svelte/portingjs"
+      "path": "../../projects/sv-template"
     },
     {
-      "path": "../../projects/sv-template"
+      "path": "svelte/portingjs"
     },
     {
       "path": "./go/endtoend/s1"
