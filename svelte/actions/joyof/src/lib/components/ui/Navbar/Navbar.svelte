@@ -25,6 +25,9 @@
             <li>
                 <a href="/motion">Motion</a>
             </li>
+            <li>
+                <a href="/forms">Forms</a>
+            </li>
         </ul>
     </nav>
     <!-- <select bind:value={selectedLanguage} on:change={changeLanguage}>

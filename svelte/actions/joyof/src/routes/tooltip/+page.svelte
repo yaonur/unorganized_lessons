@@ -18,6 +18,9 @@ function tooltip (element: HTMLElement, options:Options) {
 
 <div class="flex justify-center items-center pt-24">
 	<input type="text" bind:value={content}>
-	
 	<button use:tooltip={{content}}>Hover</button>
+</div>
+<div class="flex justify-center items-center pt-24">
+	<button popovertarget="mypopover">Toggle the popover</button>
+	<div id="mypopover" popover="auto">Popover content</div>
 </div>
