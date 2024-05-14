@@ -12,8 +12,10 @@
 </script>
 
 <ParaglideJS {i18n}>
-	<LangSwitcher/>
-	<Navbar/>
-	{@render children()}
+	<div class="h-svh">
+		<LangSwitcher/>
+		<Navbar/>
+		{@render children()}
+	</div>
 </ParaglideJS>
 

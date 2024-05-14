@@ -14,7 +14,16 @@
                 class=""
             >{m._home()}</li>
             <li>
-                <a href="/about">{m._about()}</a>
+                <a href="/action">Action</a>
+            </li>
+            <li>
+                <a href="/tooltip">Tooltip</a>
+            </li>
+            <li>
+                <a href="/modal">Modal</a>
+            </li>
+            <li>
+                <a href="/motion">Motion</a>
             </li>
         </ul>
     </nav>

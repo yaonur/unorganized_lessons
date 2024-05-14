@@ -32,7 +32,9 @@
 	"dependencies": {
 		"class-variance-authority": "^0.7.0",
 		"clsx": "^2.1.1",
+		"motion": "^10.17.0",
 		"tailwind-merge": "^1.14.0",
-		"tailwindcss-animate": "^1.0.7"
+		"tailwindcss-animate": "^1.0.7",
+		"tippy.js": "^6.3.7"
 	}
 }
