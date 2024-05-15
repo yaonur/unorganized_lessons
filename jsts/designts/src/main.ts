@@ -1,5 +1,7 @@
 import "./style.css";
 import { setupCounter } from "./counter.ts";
+// import * as s2 from './s2/index.ts'
+import * as s3 from './s3/index.ts'
 
 document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
   <div>
@@ -8,3 +10,7 @@ document.querySelector<HTMLDivElement>("#app")!.innerHTML = `
 `;
 
 setupCounter(document.querySelector<HTMLButtonElement>("#text")!);
+console.clear()
+// s2.main()
+s3.main()
+
