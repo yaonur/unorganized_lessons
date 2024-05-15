@@ -1,4 +1,5 @@
-import * as single from './singleresponsibility'
+import * as openclose from './openclose'
+
 export function main () {
-	single.main()
+	openclose.main()
 }
