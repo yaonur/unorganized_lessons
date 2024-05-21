@@ -1,79 +1,66 @@
-<header>
-	<div class="max-width-wrapper">
-		<div class="intro-chunk">
-			<h1 class="title">Huckleberry</h1>
-			<p>
-				An avant-garde agency focused on connecting <strong>passion</strong> with
-				<strong>logistics</strong>.
-			</p>
-			<p>A better way to solve the problems of tomorrow.</p>
-		</div>
+<article>
+	<div class="product-photo">
+		<img
+			alt="Product photo of a minimal watch"
+			src="https://courses.joshwcomeau.com/cfj-mats/watch-rachit-tank.jpg"
+		/>
 	</div>
-</header>
-<main>
-	<section class="max-width-wrapper">
-		<div class="card">
-			<h2 class="indented-heading">Wealth comes from operations</h2>
-			<p>
-				No modern business can thrive without developing a specialization in operations. Huckleberry
-				has helped dozens of companies, from Fortune 50 monoliths to fast-growing Bay Area startups,
-				achieve their goals and meet their KPIs by leveraging our extensive network of logistics
-				experts.
-			</p>
-			<p>
-				Huckleberry was established in 2003 to help ambitious businesses discover their true
-				potential. If that resonates, let's chat!
-			</p>
-		</div>
-	</section>
-</main>
+	<div class="flag">New and Improved!</div>
+	<h2>
+		Novus Watch
+		<span class="subtitle">Series IV</span>
+	</h2>
+	<p>
+		The pinnacle of fashion and tech. This wearable piece is an homage to gilded palaces and minimal
+		regalia, combining nouveau-deco and brutalism influences in a compact, Swiss-made watch.
+	</p>
+</article>
 
 <style>
-	header {
-		border-bottom: 8px solid hsl(0, 0%, 80%);
-	}
-	.max-width-wrapper {
-		max-width: 800px;
-		margin: 0 auto;
-		padding: 0 24px;
-	}
-	.intro-chunk {
-		padding-top:96px;
-		padding-bottom:48px;
-		max-width:415px;
+	
+
+	article {
+		max-width: 320px;
+		margin: 54px auto;
+		padding: 16px;
+		border-radius: 8px;
+		background: white;
+		box-shadow: 0px 2px 8px hsl(238deg 28% 50% / 0.5);
+		position: relative;
 	}
 
-	main {
-		background-color: hsl(0, 0%, 40%);
-		padding : 48px 0;
+	.flag {
+		position: absolute;
+		top:8px;
+		left:-12px;
+		padding-left: 8px;
+		padding-right: 16px;
+		font-size: 1rem;
+		line-height: 2;
+		font-weight: 500;
+		background: hsl(50deg 95% 85%);
+		box-shadow: 0px 1px 2px hsl(50deg 45% 45% / 0.2);
+		border-radius: 4px 1rem 1rem 4px;
 	}
-	.card {
-		background-color: white;
-		padding:24px;
-		margin: 0 -24px;
+
+	/* Cosmetic styles below: */
+	.product-photo {
+		margin: -16px;
+		margin-bottom: 12px;
 	}
-	p {
-		font-size:1.25rem;
-		line-height: 1.5;
-		margin: 0;
-		margin-bottom: 1rem;
+	.product-photo img {
+		display: block;
+		width: 100%;
+		border-radius: 8px 8px 0px 0px;
 	}
-	p:last-child {
-		margin-bottom: 0;
+	h2 {
+		font-size: 1.5rem;
+		font-weight: 500;
+		margin-bottom: 0.5em;
 	}
-	strong {
-		color: hsl(169, 100%, 30%);
-	}
-	.indented-heading {
-		width:fit-content;
-		font-size: 1.5 rem;
-		line-height: 1.2;
-		margin:0;
-		padding: 16px 32px;
-		background-color: hsl(45, 100%, 50%);
-		border-bottom:8px solid hsl(45, 100%, 40%);
-		margin-left:-32px;
-		margin-top:-16px;
-		margin-bottom:1rem;
+	.subtitle {
+		font-size: 1rem;
+		color: hsl(0deg 0% 30%);
+		font-weight: 300;
 	}
 </style>

@@ -1,6 +1,9 @@
 {
   "folders": [
     {
+      "path": "./web/css/joshwcomeau"
+    },
+    {
       "path": "../../projects/sv-template"
     },
     {

@@ -1,15 +1,15 @@
 import { sveltekit } from '@sveltejs/kit/vite';
 import { defineConfig } from 'vite';
-import { paraglide } from '@inlang/paraglide-js-adapter-vite';
+// import { paraglide } from '@inlang/paraglide-js-adapter-vite';
 import path from 'path';
 
 // noinspection JSUnusedGlobalSymbols
 export default defineConfig({
 	plugins: [
-		paraglide({
-			project: './project.inlang',
-			outdir: './src/paraglide'
-		}),
+		// paraglide({
+		// 	project: './project.inlang',
+		// 	outdir: './src/paraglide'
+		// }),
 		sveltekit()
 	],
 	resolve: {
