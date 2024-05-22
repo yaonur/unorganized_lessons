@@ -1,3 +1,8 @@
+<script lang='ts'> 
+	import { dev,browser } from "$app/environment"
+	console.log("isDev:",dev)
+	console.log("browser:",browser)
+</script>
 <article>
 	<div class="product-photo">
 		<img

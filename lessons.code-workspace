@@ -16,9 +16,6 @@
       "path": "."
     },
     {
-      "path": "../../dockerapps"
-    },
-    {
       "path": "../../.config/nvim"
     },
     {
