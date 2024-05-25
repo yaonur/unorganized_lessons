@@ -4,6 +4,11 @@
     import {cn} from "$utils/cn"
     import {createEventDispatcher} from "svelte";
 
+	enum Size {
+		small= "small",
+		medium= "medium",
+		large= "large"
+	}
     const progressBar = cva("bar", {
         variants: {
             intent: {
@@ -11,16 +16,19 @@
                 secondary: "bg-secondary",
             },
             size: {
-                small: "h-4",
-                medium: "h-8",
+                small: "h-2",
+                medium: "h-4",
+				large: "h-6 my-1"
             },
 			
 			
         },
         compoundVariants: [
-            { intent: "primary", size: "medium", class: "primaryMedium" },
+            { intent: "primary", size: "medium" },
         ],
     });
+
+	
     const dispatch = createEventDispatcher();
 
 
