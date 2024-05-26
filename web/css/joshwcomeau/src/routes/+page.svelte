@@ -1,71 +1,16 @@
 <script lang='ts'> 
 	import { dev,browser } from "$app/environment"
+	import {ProgressBar} from "$elements/ProgressBar";
+	import Select from "$elements/Select/Select.svelte";
 	console.log("isDev:",dev)
 	console.log("browser:",browser)
+	let options: Array<[string, number]> | Array<[string, string]> = [["Option 1", 1], ["Option 2", 2], ["Option 3", 3]]
+	let value : string | number = 1;
+	$: console.log("value:",value)
 </script>
-<article>
-	<div class="product-photo">
-		<img
-			alt="Product photo of a minimal watch"
-			src="https://courses.joshwcomeau.com/cfj-mats/watch-rachit-tank.jpg"
-		/>
-	</div>
-	<div class="flag">New and Improved!</div>
-	<h2>
-		Novus Watch
-		<span class="subtitle">Series IV</span>
-	</h2>
-	<p>
-		The pinnacle of fashion and tech. This wearable piece is an homage to gilded palaces and minimal
-		regalia, combining nouveau-deco and brutalism influences in a compact, Swiss-made watch.
-	</p>
-</article>
+<div class="flex flex-col justify-center  gap-8">
 
-<style>
-	
+	<ProgressBar value={40}></ProgressBar>
+	<Select {options}  bind:selectedValue={value}></Select>
+</div>
 
-	article {
-		max-width: 320px;
-		margin: 54px auto;
-		padding: 16px;
-		border-radius: 8px;
-		background: white;
-		box-shadow: 0px 2px 8px hsl(238deg 28% 50% / 0.5);
-		position: relative;
-	}
-
-	.flag {
-		position: absolute;
-		top:8px;
-		left:-12px;
-		padding-left: 8px;
-		padding-right: 16px;
-		font-size: 1rem;
-		line-height: 2;
-		font-weight: 500;
-		background: hsl(50deg 95% 85%);
-		box-shadow: 0px 1px 2px hsl(50deg 45% 45% / 0.2);
-		border-radius: 4px 1rem 1rem 4px;
-	}
-
-	/* Cosmetic styles below: */
-	.product-photo {
-		margin: -16px;
-		margin-bottom: 12px;
-	}
-	.product-photo img {
-		display: block;
-		width: 100%;
-		border-radius: 8px 8px 0px 0px;
-	}
-	h2 {
-		font-size: 1.5rem;
-		font-weight: 500;
-		margin-bottom: 0.5em;
-	}
-	.subtitle {
-		font-size: 1rem;
-		color: hsl(0deg 0% 30%);
-		font-weight: 300;
-	}
-</style>
