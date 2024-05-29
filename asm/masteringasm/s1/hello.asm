@@ -8,7 +8,7 @@ main:
 	mov rax, 1 ; 1 = write
 	mov rdi, 1 ;1 = to stdout
 	mov rsi, msg ; string to display in rsi
-	mov rdx, 14 ; length of the string without 0
+	mov rdx, 11 ; length of the string without 0
 	syscall ; display the string
 	; sys_exit
 	mov rax, 60 ; 60 = exit
