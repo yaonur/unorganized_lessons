@@ -1,10 +1,10 @@
 {
   "folders": [
     {
-      "path": "../../projects/sv-template"
+      "path": "./web/css/joshwcomeau"
     },
     {
-      "path": "./web/css/joshwcomeau"
+      "path": "../../projects/sv-template"
     },
     {
       "path": "svelte/portingjs"
