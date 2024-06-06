@@ -30,4 +30,5 @@ func main() {
 	for i := 0; i < len(team); i++ {
 		team[i].KickBall()
 	}
+
 }

@@ -1,6 +1,9 @@
 {
   "folders": [
     {
+      "path": "./go/endtoend/s1"
+    },
+    {
       "path": "./web/css/joshwcomeau"
     },
     {
@@ -8,9 +11,6 @@
     },
     {
       "path": "svelte/portingjs"
-    },
-    {
-      "path": "./go/endtoend/s1"
     },
     {
       "path": "."
