@@ -1,6 +1,10 @@
 {
   "folders": [
     {
+      "path": "./rust/tutorials/rustlangudemy",
+      "name":"rust"
+    },
+    {
       "path": "./go/endtoend/s1"
     },
     {
