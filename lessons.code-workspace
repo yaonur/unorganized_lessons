@@ -1,11 +1,11 @@
 {
   "folders": [
     {
-      "path": "./rust/tutorials/rustlangudemy",
-      "name":"rust"
+      "path": "./go/workingwithdesignpatterns/webserver"
     },
     {
-      "path": "./go/endtoend/s1"
+      "path": "./rust/tutorials/rustlangudemy",
+      "name":"rust"
     },
     {
       "path": "./web/css/joshwcomeau"
