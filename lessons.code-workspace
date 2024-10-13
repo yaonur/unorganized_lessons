@@ -1,8 +1,8 @@
 {
   "folders": [
     {
-      "path": "./rust/tutorials/rustlangudemy",
-      "name":"rust"
+      "path": "./rust/tutorials/rustlangudemy/s3",
+      "name":"rustlangudemy"
     },
     {
       "path": "./go/workingwithdesignpatterns/webserver"
