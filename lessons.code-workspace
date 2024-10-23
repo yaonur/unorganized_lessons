@@ -5,13 +5,13 @@
       "name":"rustlangudemy"
     },
     {
+      "path": "../../projects/sv-template"
+    },
+    {
       "path": "./go/workingwithdesignpatterns/webserver"
     },
     {
       "path": "./web/css/joshwcomeau"
-    },
-    {
-      "path": "../../projects/sv-template"
     },
     {
       "path": "svelte/portingjs"
