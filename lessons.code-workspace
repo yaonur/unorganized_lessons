@@ -1,8 +1,8 @@
 {
   "folders": [
     {
-      "path": "./rust/tutorials/rustlangudemy/s3",
-      "name":"rustlangudemy"
+      "path": "./rust/tutorials/rustlangudemy/s5",
+      "name":"rustlangudemys5"
     },
     {
       "path": "../../projects/sv-template"
