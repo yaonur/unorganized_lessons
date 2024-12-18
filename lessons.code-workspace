@@ -1,6 +1,10 @@
 {
   "folders": [
     {
+      "path": "./rust/tutorials/akhil/axum",
+      "name":"brooks_axum"
+    },
+    {
       "path": "./rust/tutorials/rustlangudemy/s8",
       "name":"rustlangudemys8"
     },
