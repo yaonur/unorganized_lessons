@@ -1,6 +1,9 @@
 {
   "folders": [
     {
+      "path": "../../projects/sv-template"
+    },
+    {
       "path": "./jsts/completetsmanic/s3",
       "name":"manics3"
     },
@@ -11,9 +14,6 @@
     {
       "path": "./rust/tutorials/rustlangudemy/s8",
       "name":"rustlangudemys8"
-    },
-    {
-      "path": "../../projects/sv-template"
     },
     {
       "path": "./go/workingwithdesignpatterns/webserver"
