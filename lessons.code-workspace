@@ -1,8 +1,12 @@
 {
   "folders": [
     {
-      "path": "./rust/tutorials/akhil/axum",
-      "name":"brooks_axum"
+      "path": "./jsts/completetsmanic/s3",
+      "name":"manics3"
+    },
+    {
+      "path": "./rust/tutorials/udemy/fastbit/s3",
+      "name":"fastbit-s3"
     },
     {
       "path": "./rust/tutorials/rustlangudemy/s8",
