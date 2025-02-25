@@ -1,5 +1,7 @@
 #[allow(overflowing_literals)]
 fn main() {
-    let x :i32 =2147483648; 
-    println!("x = {}", x);
+    let code = b'+';
+    let code2 = 43 as char;
+    println!("code = {}", code as char);
+    println!("code2 = {}", code2);
 }
