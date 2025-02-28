@@ -1,6 +1,10 @@
 {
   "folders": [
     {
+      "path": "./rust/slint",
+      "name":"slint"
+    },
+    {
       "path": "./rust/tutorials/udemy/fastbit/s3",
       "name":"fastbit-s3"
     },
